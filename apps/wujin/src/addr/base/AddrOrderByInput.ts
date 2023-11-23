@@ -105,7 +105,7 @@ class AddrOrderByInput {
   @Field(() => SortOrder, {
     nullable: true,
   })
-  fk_user_addr?: SortOrder;
+  userId?: SortOrder;
 }
 
 export { AddrOrderByInput as AddrOrderByInput };
