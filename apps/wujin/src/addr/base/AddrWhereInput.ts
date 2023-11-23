@@ -83,7 +83,7 @@ class AddrWhereInput {
   @Field(() => UserWhereUniqueInput, {
     nullable: true,
   })
-  userId?: UserWhereUniqueInput;
+  user?: UserWhereUniqueInput;
 }
 
 export { AddrWhereInput as AddrWhereInput };

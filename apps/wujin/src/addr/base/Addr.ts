@@ -79,7 +79,7 @@ class Addr {
   })
   @ValidateNested()
   @Type(() => User)
-  userId?: User;
+  user?: User;
 }
 
 export { Addr as Addr };

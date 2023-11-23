@@ -47,11 +47,11 @@ export class AddrServiceBase {
     return this.prisma.addr.delete(args);
   }
 
-  async getUserId(parentId: string): Promise<User | null> {
+  async getUser(parentId: string): Promise<User | null> {
     return this.prisma.addr
       .findUnique({
         where: { id: parentId },
       })
-      .userId();
+      .user();
   }
 }

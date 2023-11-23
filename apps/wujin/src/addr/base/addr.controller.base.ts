@@ -51,8 +51,8 @@ export class AddrControllerBase {
       data: {
         ...data,
 
-        userId: {
-          connect: data.userId,
+        user: {
+          connect: data.user,
         },
       },
       select: {
@@ -64,7 +64,7 @@ export class AddrControllerBase {
         tel: true,
         updatedAt: true,
 
-        userId: {
+        user: {
           select: {
             id: true,
           },
@@ -98,7 +98,7 @@ export class AddrControllerBase {
         tel: true,
         updatedAt: true,
 
-        userId: {
+        user: {
           select: {
             id: true,
           },
@@ -133,7 +133,7 @@ export class AddrControllerBase {
         tel: true,
         updatedAt: true,
 
-        userId: {
+        user: {
           select: {
             id: true,
           },
@@ -170,8 +170,8 @@ export class AddrControllerBase {
         data: {
           ...data,
 
-          userId: {
-            connect: data.userId,
+          user: {
+            connect: data.user,
           },
         },
         select: {
@@ -183,7 +183,7 @@ export class AddrControllerBase {
           tel: true,
           updatedAt: true,
 
-          userId: {
+          user: {
             select: {
               id: true,
             },
@@ -226,7 +226,7 @@ export class AddrControllerBase {
           tel: true,
           updatedAt: true,
 
-          userId: {
+          user: {
             select: {
               id: true,
             },

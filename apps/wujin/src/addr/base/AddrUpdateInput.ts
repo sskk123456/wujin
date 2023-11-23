@@ -71,7 +71,7 @@ class AddrUpdateInput {
   @Field(() => UserWhereUniqueInput, {
     nullable: true,
   })
-  userId?: UserWhereUniqueInput;
+  user?: UserWhereUniqueInput;
 }
 
 export { AddrUpdateInput as AddrUpdateInput };

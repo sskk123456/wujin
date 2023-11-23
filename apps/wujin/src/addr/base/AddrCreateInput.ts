@@ -56,7 +56,7 @@ class AddrCreateInput {
   @ValidateNested()
   @Type(() => UserWhereUniqueInput)
   @Field(() => UserWhereUniqueInput)
-  userId!: UserWhereUniqueInput;
+  user!: UserWhereUniqueInput;
 }
 
 export { AddrCreateInput as AddrCreateInput };
